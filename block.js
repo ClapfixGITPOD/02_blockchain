@@ -16,6 +16,10 @@ class Block{
 
 
     }
+
+        static genesis(){
+            return new this("Genesis time","-----","abcd1234",[])
+        }
 }
 
 module.exports = Block;
